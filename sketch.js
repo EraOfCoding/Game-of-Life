@@ -118,12 +118,10 @@ function canvasPressed() {
         start = true
         bgSong.play()
         bgSong.setLoop(true)
-        console.log('woink')
     }
     else if (start) {
         start = false
         bgSong.pause()
         bgSong.setLoop(false)
-        console.log('bruh')
     }
 }
